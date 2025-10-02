@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 const port = 4000
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/');
+mongoose.connect('mongodb+srv://gkolhe18:Gkolhe77@cluster0.7gn20.mongodb.net/');
 
 const Users = mongoose.model('Users', {
   username: String, 
